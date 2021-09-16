@@ -1,0 +1,107 @@
+$accent_black:#1f2025;
+$accent_blue: #2e9cfc;
+
+.header{
+    height: 20vh;
+    width: 92vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    &-left{
+        &-details{
+            color: white;
+            &>p{
+                font-size: 0.8rem;
+            }
+        }
+        &-date{
+            color: $accent_blue
+        }
+    }
+    &-right{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        padding-top: 10px;
+        padding-right: 30px;
+        &-top{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            padding-bottom: 20px;
+
+            .notfication-icon{
+                padding-right: 10px;
+                .MuiSvgIcon-root{
+                    width: 90%;
+                    color: whitesmoke;
+                }
+            }
+
+            .username{
+                padding-right: 8px;
+                font-size: 0.8rem;
+                color: white
+            }
+
+            .avatar{
+                &>img{
+                    height: 40px;
+                    width: 40px;
+                    border-radius: 60%;
+                }
+            }
+
+            .dropdown{
+                padding-top: 3px;
+                .MuiSvgIcon-root{
+                    color: whitesmoke;
+                    width: 70%;
+                }
+            }
+        }
+
+        &-bottom{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            padding-right: 25px;
+            .add-button{
+                padding-right: 20px;
+                &>button{
+                    background-color: $accent_blue;
+                    border: none;
+                    height: 40px;
+                    width: 80px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    color: white;
+                    .MuiSvgIcon-root{
+                        padding-top: 1.8px;
+                        padding-right: 3px;
+                        width: 70%;
+                        color: whitesmoke;
+                    }
+                    p{
+                        font-weight: 700;
+                    }
+                }
+            }
+
+            .search-button{
+                .MuiSvgIcon-root{
+                    color: rgb(146, 146, 146);
+                    padding-top: 3px;
+                    width: 60%;
+                }
+            }
+
+            .application-input{
+                color: white;
+                font-size: 0.9rem;
+            }
+        }
+    }
+}
