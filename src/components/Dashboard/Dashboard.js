@@ -3,6 +3,7 @@ import './Dashboard.scss'
 import HeadingDetails from './HeadingDetails/HeadingDetails'
 import Cards from './Cards/Cards'
 import MetricCharts from './MetricCharts/MetricCharts'
+import CampusStats from './CampusStats/CampusStats'
 export default function Dashboard() {
     return (
         <div className='dashboard'>
@@ -10,6 +11,7 @@ export default function Dashboard() {
             <div className='metrics'>
                 <Cards/>
                 <MetricCharts/>
+                <CampusStats/>
             </div>
         </div>
     )

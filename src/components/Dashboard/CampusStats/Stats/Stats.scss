@@ -1,0 +1,105 @@
+.stats-wrapper{
+    display: flex;
+    flex-direction: column;
+    width: 60.3%;
+    height: 10%;
+    border: 0.5px solid #aaa3;
+    padding: 1.5%;
+    border-radius: 0.6rem;
+    .heading{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+        padding-bottom: 10px;
+        &-main{
+            &>span{
+                color: white;
+                font-size: 0.8rem;
+                font-weight: 600;
+            }   
+        }
+
+        &-campaign{
+            display: flex;
+            flex-direction: row;
+            &-logo{
+                display: flex;
+                align-items: center;
+                padding-right: 10px;
+                .MuiSvgIcon-root{
+                    width: 100%;
+                    color: #e55a6a;
+                }
+            }
+            &-info{
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                &-total{
+                    &>span{
+                        font-size: 0.8rem;
+                        color: #e55a6a;
+                        font-weight: 600;
+                    }
+                }
+                &-month{
+                    &>span{
+                        font-size: 0.8rem;
+                        color: white;
+                        font-weight: 600;
+                    }
+                }
+            }
+        }
+    }
+
+    .main-stats{
+        padding-top: 10px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    .buttons{
+        margin-top: 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 100%;
+        .startButton{
+            &>button{
+                width: 250px;
+                height: 40px;
+                background-color: #2e9cfd;
+                border: none;
+                &>span{
+                    color: white;
+                    font-size: 0.6rem;
+                    font-weight: 500;
+                }
+                cursor: pointer;
+                &:hover{
+                    opacity: 0.8;
+                }
+            }
+        }
+        .pauseButton{
+            &>button{
+                width: 250px;
+                height: 40px;
+                background-color: #e55a6a;
+                border: none;
+                &>span{
+                    color: white;
+                    font-size: 0.6rem;
+                    font-weight: 500;
+                }
+                cursor: pointer;
+                &:hover{
+                    opacity: 0.8;
+                }
+            }
+        }
+    }
+}

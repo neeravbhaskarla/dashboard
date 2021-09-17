@@ -7,43 +7,43 @@ import {AreaChart,
 import {Folder, MoreVert} from '@mui/icons-material'
 import './ApplicationsReceived.scss'
 
-        const data = [
-            {
-              "name": "Jan",
-              "new": 58,
-              "pending": 25
-            },
-            {
-              "name": "Feb",
-              "new": 42,
-              "pending": 60
-            },
-            {
-              "name": "Mar",
-              "new": 48,
-              "pending": 40
-            },
-            {
-              "name": "Apr",
-              "new": 55,
-              "pending": 55
-            },
-            {
-              "name": "May",
-              "new": 40,
-              "pending": 80
-            },
-            {
-              "name": "Jun",
-              "new": 72,
-              "pending": 65
-            },
-            {
-              "name": "Jul",
-              "new": 60,
-              "pending": 58,
-            }
-          ]
+const data = [
+    {
+      "name": "Jan",
+      "new": 58,
+      "pending": 25
+    },
+    {
+      "name": "Feb",
+      "new": 42,
+      "pending": 60
+    },
+    {
+      "name": "Mar",
+      "new": 48,
+      "pending": 40
+    },
+    {
+      "name": "Apr",
+      "new": 55,
+      "pending": 55
+    },
+    {
+      "name": "May",
+      "new": 40,
+      "pending": 80
+    },
+    {
+      "name": "Jun",
+      "new": 72,
+      "pending": 65
+    },
+    {
+      "name": "Jul",
+      "new": 60,
+      "pending": 58,
+    }
+  ]
 
 export default function ApplicationsReceived() {
     return (
