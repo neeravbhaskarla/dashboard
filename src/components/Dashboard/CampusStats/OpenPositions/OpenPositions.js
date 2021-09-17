@@ -13,7 +13,7 @@ export default function OpenPositions() {
         <div className="positionsview">
             <div className="positionsview-header">
                 <div className="positionsview-header-title">
-                    <span>Open Posistions By Department</span>
+                    <span>Open Positions By Department</span>
                 </div>
                 <div className="positionsview-header-options">
                     <MoreHoriz/>

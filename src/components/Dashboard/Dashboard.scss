@@ -7,6 +7,21 @@ body{
 .dashboard{
     padding-left: 50px;
 }
-.metrics{
-    width: 65vw;
+.dashboard-items{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    &-left{
+        .metrics{
+            width: 65vw;
+        }
+    }
+    &-right{
+        .applicants{
+            width: 25vw;
+            height: 85vh;
+            border: 0.5px solid #aaa3;
+            border-radius: 0.6rem;
+        }
+    }
 }

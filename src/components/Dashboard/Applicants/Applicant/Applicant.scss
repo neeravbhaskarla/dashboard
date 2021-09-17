@@ -1,0 +1,61 @@
+.applicant{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 15px 0 15px;
+    margin-bottom: 20px;
+    &-container{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+    }
+
+    &-icon{
+        margin-right: 10px;
+        .MuiSvgIcon-root{
+            width: 35px;
+            height: 35px;
+            color: #ccc;
+        }
+    }
+    &-details{
+        display: flex;
+        flex-direction: column;
+        margin-top: 5px;
+        &-name{
+            &>span{
+                font-size: 1rem;
+                font-weight: 500;
+                color: white;
+            }
+        }
+        &-job{
+            &>p{
+                font-size: 0.5rem;
+                color: white;
+                &>span{
+                    color: #2e9cfc;
+                }
+            }
+        }
+    }
+    &-contact{
+        display: flex;
+        flex-direction: row;
+        &-message{
+            .MuiSvgIcon-root{
+                width: 80%;
+                color: white
+            }
+        }
+        &-number{
+            margin-left: 25px;
+            .MuiSvgIcon-root{
+                width: 80%;
+                color: white
+            }
+        }
+    }
+}
