@@ -1,0 +1,29 @@
+.item-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 12px;
+    .detail{
+        display: flex;
+        flex-direction: row;
+        width: 50%;
+        .circle{
+            display: flex;
+            justify-content: center;
+            .MuiSvgIcon-root{
+                width: 60%;
+            }
+        }
+        .title{
+            padding-bottom: 3px;
+            padding-right: 40px;
+            &-name{
+                font-size: 0.8rem;
+            }
+        }
+    }
+    .progressbar{
+        display: flex;
+    }
+}

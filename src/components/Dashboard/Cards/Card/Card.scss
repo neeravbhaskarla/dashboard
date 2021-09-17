@@ -6,7 +6,7 @@ $accent_blue: #2e9cfc;
     height: 14vh;
     padding: 10px;
     border: 0.5px solid #aaa3;
-    border-radius: 0.5rem;
+    border-radius: 0.6rem;
     &-wrapper{
         display: flex;
         flex-direction: row;
@@ -73,7 +73,7 @@ $accent_blue: #2e9cfc;
     transition: all 1s;
     &:hover{
         background-color: $accent_blue;
-        transform: translate(5px, 30px);
+        transform: translate(5px, 10px);
     }
     cursor: pointer;
 }

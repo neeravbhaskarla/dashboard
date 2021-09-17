@@ -1,5 +1,5 @@
 import React from 'react'
-import BarPieChart from '../Charts/BarPieChart'
+import BarPieChart from './Charts/BarPieChart'
 import './Card.scss'
 import { CallMade, CallReceived, MoreHoriz} from '@mui/icons-material'
 
