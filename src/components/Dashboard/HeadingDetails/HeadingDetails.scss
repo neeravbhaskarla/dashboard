@@ -2,7 +2,7 @@ $accent_black:#1f2025;
 $accent_blue: #2e9cfc;
 
 .header{
-    height: 20vh;
+    height: 15vh;
     width: 92vw;
     display: flex;
     flex-direction: row;
@@ -10,12 +10,19 @@ $accent_blue: #2e9cfc;
     &-left{
         &-details{
             color: white;
+            &>h3{
+                padding-top: 10px;
+                font-size: 1rem;
+                font-weight: 400;
+            }
             &>p{
-                font-size: 0.8rem;
+                font-size: 0.7rem;
+                font-weight: 500;
             }
         }
         &-date{
-            color: $accent_blue
+            color: $accent_blue;
+            font-weight: 600;
         }
     }
     &-right{
@@ -33,14 +40,18 @@ $accent_blue: #2e9cfc;
             .notfication-icon{
                 padding-right: 10px;
                 .MuiSvgIcon-root{
-                    width: 90%;
+                    width: 70%;
                     color: whitesmoke;
+                    &:hover{
+                        color: rgb(201, 201, 201)
+                    }
                 }
+                cursor: pointer;
             }
 
             .username{
                 padding-right: 8px;
-                font-size: 0.8rem;
+                font-size: 0.7rem;
                 color: white
             }
 
@@ -48,7 +59,8 @@ $accent_blue: #2e9cfc;
                 &>img{
                     height: 40px;
                     width: 40px;
-                    border-radius: 60%;
+                    border-radius: 50%;
+                    cursor: pointer;
                 }
             }
 
@@ -72,7 +84,7 @@ $accent_blue: #2e9cfc;
                 &>button{
                     background-color: $accent_blue;
                     border: none;
-                    height: 40px;
+                    height: 35px;
                     width: 80px;
                     display: flex;
                     align-items: center;
@@ -87,6 +99,7 @@ $accent_blue: #2e9cfc;
                     p{
                         font-weight: 700;
                     }
+                    cursor: pointer;
                 }
             }
 
@@ -100,7 +113,7 @@ $accent_blue: #2e9cfc;
 
             .application-input{
                 color: white;
-                font-size: 0.9rem;
+                font-size: 0.7rem;
             }
         }
     }

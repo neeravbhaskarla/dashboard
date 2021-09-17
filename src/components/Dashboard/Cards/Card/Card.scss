@@ -1,0 +1,79 @@
+$accent_black:#1f2025;
+$accent_blue: #2e9cfc;
+
+.card{
+    width: 28%;
+    height: 14vh;
+    padding: 10px;
+    border: 0.5px solid #aaa3;
+    border-radius: 0.5rem;
+    &-wrapper{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        height: 100%;
+        width: 100%;
+    }
+    &-left{
+        display: flex;
+        flex-direction: column;
+        color: white;
+        padding: 5px;
+        width: 100%;
+        justify-content: space-between;
+        &-name{
+            font-size: 0.6rem;
+        }
+        &-amount{
+            font-weight: 700;
+        }
+        &-percent{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            font-weight: bold;
+            &-call{
+                .MuiSvgIcon-root{
+                    width: 70%;
+                }
+            }
+            &-value{
+                &-gain{
+                    padding-right: 25px;
+                    font-size: .6rem;
+                    color: #5f55b1;
+                }
+                &-loss{
+                    padding-right: 25px;
+                    font-size: .6rem;
+                    color: #e55a6a;
+                }
+            }
+        }
+
+    }
+    &-right{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-end;
+        &-info{
+            .MuiSvgIcon-root{
+                width: 70%;
+                color: white
+            }
+        }
+        &-barchart{
+            display: flex;
+            justify-content: flex-end;
+            width: 80%;   
+        }
+    }
+    transform: translate(0px, 0px);
+    transition: all 1s;
+    &:hover{
+        background-color: $accent_blue;
+        transform: translate(5px, 30px);
+    }
+    cursor: pointer;
+}
