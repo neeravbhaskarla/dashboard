@@ -13,3 +13,11 @@
         font-weight: 600;
     }
 }
+@media only screen and (max-width: 1310px) {
+    .container{
+        justify-content: center;
+        width: 110%;
+        margin-left: 0;
+    }
+
+}

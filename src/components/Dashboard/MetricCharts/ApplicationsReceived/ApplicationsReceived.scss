@@ -66,5 +66,13 @@
         font-size: 0.6rem;
         font-family: Roboto, sans-serif;
     }
+    .area-chart{
+        width: 100%;
+    }
     cursor: pointer;
+}
+@media only screen and (max-width: 1297px) {
+    .application-metrics{
+        width: 85%;
+    }
 }

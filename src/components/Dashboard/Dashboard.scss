@@ -25,3 +25,16 @@ body{
         }
     }
 }
+@media only screen and (max-width: 1310px) {
+    .dashboard-items{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .dashboard-items-right{
+        margin-top: 10px;
+    }
+    .dashboard-items-right .applicants{
+        width: 100%;
+    }
+}
